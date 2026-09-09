@@ -21,7 +21,7 @@ while True:
         pontuacao += 1
         print('✔️ Possui 8 ou mais caracteres')
     else:
-        print('x Possui menos de 8 caracteres')
+        print('✖️ Possui menos de 8 caracteres')
 
     # Maiúscula
     tem_maiuscula = False
@@ -35,7 +35,7 @@ while True:
         pontuacao += 1
         print('✔️ Possui letra maiúscula')
     else:
-        print('x Não possui letra maiúscula')
+        print('✖️ Não possui letra maiúscula')
 
     # Minúscula
     tem_maiuscula = False
@@ -49,7 +49,7 @@ while True:
          pontuacao += 1
          print('✔️ Possui letra minúscula')
     else:
-        print('x Não possui letra minuscula')
+        print('✖️ Não possui letra minuscula')
 
     # Número
     tem_numero = False
@@ -63,7 +63,7 @@ while True:
          pontuacao += 1
          print('✔️ Possui número')
     else:
-        print('x Não possui número')
+        print('✖️ Não possui número')
 
     # Caractere especial
     especiais = '!@#$%&*()-_=+'
@@ -78,7 +78,7 @@ while True:
         pontuacao += 1
         print('✔️ Possui caractere especial')
     else:
-        print('x Não possui caractere especial')
+        print('✖️ Não possui caractere especial')
 
     # Verificação de senha comum
     if senha.lower() in senhas_comuns:
