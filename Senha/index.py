@@ -31,12 +31,12 @@ for caractere in senha:
         pontuacao += 1
         break
 
-    # Classificação 
-    if pontuacao <= 2:
-        print('Força da senha: FRACA')
-    elif pontuacao <= 4:
-        print('Força da senha: MÉDIA')
-    else:
-        print('Força da senha: FORTE')
+# Classificação 
+if pontuacao <= 2:
+    print('Força da senha: FRACA')
+elif pontuacao <= 4:
+    print('Força da senha: MÉDIA')
+else:
+    print('Força da senha: FORTE')
 
-    print(f'Pontuação: {pontuacao}/5')
+print(f'Pontuação: {pontuacao}/5')
